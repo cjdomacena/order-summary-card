@@ -24,7 +24,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/cjdomacena/order-summary-card)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://cjdomacena.github.io/order-summary-card/)
 
 ### Built with
 
@@ -37,6 +37,6 @@ Users should be able to:
 ## Author
 
 - Website - (in progress)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/@cjdomacena2)
+- Frontend Mentor - [@cjdomacena](https://www.frontendmentor.io/profile/cjdomacena)
+- Twitter - [@cjdomacena2](https://www.twitter.com/@cjdomacena2)
 
