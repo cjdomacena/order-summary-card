@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/cjdomacena/order-summary-card)
-- Live Site URL: [Add live site URL here](https://cjdomacena.github.io/order-summary-card/)
+- Solution URL: [Github Repo](https://github.com/cjdomacena/order-summary-card)
+- Live Site URL: [Github Page](https://cjdomacena.github.io/order-summary-card/)
 
 ### Built with
 
