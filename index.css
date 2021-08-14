@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*
+{
+	font-family: 'Red Hat Display', sans-serif;
+}
+body
+{
+
+	background-image: url("./images/pattern-background-desktop.svg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: #E0E8FF;
+
+	font-size: 16px;
+}
+h1, h4{
+	color:hsl(223, 47%, 23%);
+}
+
+.main-container
+{
+height: 100vh;
+display: grid;
+place-items: center;
+}
+
+.card-container
+{
+
+	max-width: 450px;
+	height: auto;
+	background-color: white;
+	border-radius: 24px;
+}
+
+.card-illustration-cover
+{
+	height: 220px;
+	background-image: url("./images/illustration-hero.svg");
+	border-radius: 24px 24px 0 0;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+}
+@media  screen and  (max-width: 420px) {
+		.card-content-container
+	{
+		width: 90% !important;
+	}
+}
+.card-content-container
+{
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 2rem;
+}
+.card-header
+{
+text-align: center;
+
+}
+.card-header h1 
+{
+	font-weight: 900;
+}
+
+.card-header p
+{
+	color: hsl(224, 23%, 55%);
+	font-weight: 400;
+	letter-spacing: 1px;
+	font-size: 1rem;
+}
+
+/* Card Plan style */
+.card-plan
+{
+	background-color: hsl(225, 100%, 98%);
+	border-radius:12px;
+	display: flex;
+	justify-content: space-between;
+	padding:1.5rem;
+	align-items: center;
+	margin-top: 2rem;
+}
+.plan-container
+{
+	display: flex;
+	align-items: center;
+
+}
+.plan-container h4, .plan-container p
+{
+	padding: 0;
+	margin: 0;
+}
+
+.plan-container h4
+{
+	font-weight: 900;
+	letter-spacing: .5px;
+}
+.plan-container p
+{
+	color: hsl(224, 23%, 55%);
+}
+.plan-content
+{
+	padding-left: 1rem;
+}
+
+.change-link a
+{
+	color: hsl(245, 75%, 52%);
+	font-weight:700;
+	font-size: .9rem;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.change-link a:hover
+{
+	color: #766CF1;
+	text-decoration: none;
+}
+
+/* Button Styling*/
+.card-button-container
+{
+	padding: 2rem 0;
+}
+button
+{
+	width: 100%;
+	height: 50px;
+	margin: .5rem 0;
+	border-radius: 12px;
+	border-style: none;
+}
+
+
+.proceed
+{
+	background-color: hsl(245, 75%, 52%);
+}
+
+.proceed:hover
+{
+	background-color: #766CF1;
+	box-shadow:1px 1px 12px 5px #776cf131 ;
+}
+
+.proceed 
+{
+	color: white;
+	font-size: .9rem;
+	font-weight: 700;
+}
+
+
+.cancel
+{
+	background-color: transparent;
+}
+.cancel a
+{
+	color: hsl(224, 23%, 55%);
+	font-size: .9rem;
+	font-weight: 700;
+}
+
+.cancel  a:hover
+{
+	color:hsl(223, 47%, 23%);
+}
+
