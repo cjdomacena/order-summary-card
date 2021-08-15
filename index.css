@@ -163,14 +163,14 @@ button
 {
 	background-color: transparent;
 }
-.cancel a
+a .cancel
 {
 	color: hsl(224, 23%, 55%);
 	font-size: .9rem;
 	font-weight: 700;
 }
 
-.cancel  a:hover
+a .cancel:hover
 {
 	color:hsl(223, 47%, 23%);
 }
